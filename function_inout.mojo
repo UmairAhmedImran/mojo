@@ -2,6 +2,8 @@
 
 # For example, this function is able to modify the original variables:
 
+# inout: modify the input
+
 fn add_inout(inout x: Int, inout y: Int) -> Int:
     x += 1
     y += 2
